@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Masiv_API</name>
+    </assembly>
+    <members>
+        <member name="M:Masiv_API.Controllers.RouletteController.CreateRoulette">
+            <summary>
+            Method that creates betting roulette
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Masiv_API.Controllers.RouletteController.RouletteOpening(System.Guid)">
+            <summary>
+            Method that opens the bet roulette by id
+            </summary>
+            <param name="id">Guid that identifies the roulette</param>
+            <returns></returns>
+        </member>
+        <member name="M:Masiv_API.Controllers.RouletteController.StartBetOnRoulette(Masiv_API.Models.MRoulette.RouletteBet)">
+            <summary>
+            Method what assigns the bet to roulette
+            </summary>
+            <param name="rouletteBet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Masiv_API.Controllers.RouletteController.ClosedBetOnRoulette(System.Guid)">
+            <summary>
+            Method that closes bets and extracts the list of winners and bets placed from roulette
+            </summary>
+            <param name="id">Guid that identifies the roulette</param>
+            <returns></returns>
+        </member>
+        <member name="M:Masiv_API.Controllers.RouletteController.GetAllRoulettes">
+            <summary>
+            Method that extracts the list of roulettes created
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
